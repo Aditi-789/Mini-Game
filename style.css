@@ -35,24 +35,20 @@
     background-color: black;
     margin-top: 70px;
     box-sizing: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #stone{
     background-image: url(Stone.png);
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 #paper{
     background-image: url(Paper.png);
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 #scissor{
     background-image: url(Sciccors.png);
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .scoreboard{
