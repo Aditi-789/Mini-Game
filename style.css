@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    color: white;
+    background-color: #081b31;
+    height: 60px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.icon:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 70px;
+}
+
+#stone{
+    background-image: url(Stone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#paper{
+    background-image: url(Paper.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#scissor{
+    background-image: url(Sciccors.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.scoreboard{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    font-size: 30px;
+}
+
+#user-score, #comp-score{
+    font-size: 50px;
+}
+
+.msg-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#msg{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline;
+}
