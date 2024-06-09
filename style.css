@@ -65,6 +65,13 @@
     font-size: 30px;
 }
 
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #user-score, #comp-score{
     font-size: 50px;
 }
