@@ -21,7 +21,7 @@
     gap: 30px;
 }
 .icon:hover{
-    border: 3px solid black;
+    border: 5px solid black;
     cursor: pointer;
 }
 
