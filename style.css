@@ -85,10 +85,3 @@
     display: inline;
 }
 
-@media(max-width:510px){
-    .icon{
-        height: 100px;
-        width: 100px;
-        justify-content: space-evenly;
-    }
-}
