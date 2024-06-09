@@ -34,6 +34,7 @@
     border-radius: 50%;
     background-color: black;
     margin-top: 70px;
+    box-sizing: border-box;
 }
 
 #stone{
