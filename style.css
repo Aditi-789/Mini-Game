@@ -48,7 +48,7 @@
 }
 
 #scissor{
-    background-image: url(Sciccors.png);
+    background-image: url(Scissor.png);
 }
 
 .scoreboard{
@@ -65,7 +65,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center ;
 }
 
 #user-score, #comp-score{
